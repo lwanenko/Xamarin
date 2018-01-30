@@ -1,0 +1,11 @@
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\bin\Debug\netstandard2.0\Mekashron.Test.deps.json
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\bin\Debug\netstandard2.0\Mekashron.Test.dll
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\obj\Debug\netstandard2.0\Mekashron.Test.csprojResolveAssemblyReference.cache
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\obj\Debug\netstandard2.0\Mekashron.Test.csproj.CoreCompileInputs.cache
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\obj\Debug\netstandard2.0\Mekashron.Test.App.xaml.g.cs
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\obj\Debug\netstandard2.0\Mekashron.Test.MainPage.xaml.g.cs
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\obj\Debug\netstandard2.0\Mekashron.Test.AssemblyInfoInputs.cache
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\obj\Debug\netstandard2.0\Mekashron.Test.AssemblyInfo.cs
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\bin\Debug\netstandard2.0\Mekashron.Test.pdb
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\obj\Debug\netstandard2.0\Mekashron.Test.dll
+C:\Project\Xamarin\Mekashron.Test\Mekashron.Test\Mekashron.Test\obj\Debug\netstandard2.0\Mekashron.Test.pdb
