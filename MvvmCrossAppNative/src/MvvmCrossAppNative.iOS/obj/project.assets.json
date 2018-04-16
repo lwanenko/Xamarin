@@ -1,0 +1,527 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "MvvmCross/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Binding": "[5.7.0]",
+          "MvvmCross.Core": "[5.7.0]"
+        }
+      },
+      "MvvmCross.Binding/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Core": "[5.7.0]"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Binding.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Localization.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Binding.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Localization.dll": {}
+        }
+      },
+      "MvvmCross.CodeAnalysis/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Core": "[5.7.0]",
+          "MvvmCross.Platform": "[5.7.0]"
+        }
+      },
+      "MvvmCross.Core/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Platform": "[5.7.0]"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Core.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Core.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.iOS.dll": {}
+        }
+      },
+      "MvvmCross.Platform/5.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        }
+      },
+      "MvvmCrossAppNative.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MvvmCross": "5.7.0",
+          "MvvmCross.Binding": "5.7.0",
+          "MvvmCross.CodeAnalysis": "5.7.0",
+          "MvvmCross.Core": "5.7.0",
+          "MvvmCross.Platform": "5.7.0"
+        },
+        "compile": {
+          "bin/placeholder/MvvmCrossAppNative.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MvvmCrossAppNative.Core.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "MvvmCross/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Binding": "[5.7.0]",
+          "MvvmCross.Core": "[5.7.0]"
+        }
+      },
+      "MvvmCross.Binding/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Core": "[5.7.0]"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Binding.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Localization.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Binding.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Localization.dll": {}
+        }
+      },
+      "MvvmCross.CodeAnalysis/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Core": "[5.7.0]",
+          "MvvmCross.Platform": "[5.7.0]"
+        }
+      },
+      "MvvmCross.Core/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Platform": "[5.7.0]"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Core.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Core.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.iOS.dll": {}
+        }
+      },
+      "MvvmCross.Platform/5.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        }
+      },
+      "MvvmCrossAppNative.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MvvmCross": "5.7.0",
+          "MvvmCross.Binding": "5.7.0",
+          "MvvmCross.CodeAnalysis": "5.7.0",
+          "MvvmCross.Core": "5.7.0",
+          "MvvmCross.Platform": "5.7.0"
+        },
+        "compile": {
+          "bin/placeholder/MvvmCrossAppNative.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MvvmCrossAppNative.Core.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "MvvmCross/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Binding": "[5.7.0]",
+          "MvvmCross.Core": "[5.7.0]"
+        }
+      },
+      "MvvmCross.Binding/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Core": "[5.7.0]"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Binding.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Localization.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Binding.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Localization.dll": {}
+        }
+      },
+      "MvvmCross.CodeAnalysis/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Core": "[5.7.0]",
+          "MvvmCross.Platform": "[5.7.0]"
+        }
+      },
+      "MvvmCross.Core/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Platform": "[5.7.0]"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Core.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Core.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.iOS.dll": {}
+        }
+      },
+      "MvvmCross.Platform/5.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        }
+      },
+      "MvvmCrossAppNative.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MvvmCross": "5.7.0",
+          "MvvmCross.Binding": "5.7.0",
+          "MvvmCross.CodeAnalysis": "5.7.0",
+          "MvvmCross.Core": "5.7.0",
+          "MvvmCross.Platform": "5.7.0"
+        },
+        "compile": {
+          "bin/placeholder/MvvmCrossAppNative.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MvvmCrossAppNative.Core.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "MvvmCross/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Binding": "[5.7.0]",
+          "MvvmCross.Core": "[5.7.0]"
+        }
+      },
+      "MvvmCross.Binding/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Core": "[5.7.0]"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Binding.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Localization.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Binding.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Localization.dll": {}
+        }
+      },
+      "MvvmCross.CodeAnalysis/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Core": "[5.7.0]",
+          "MvvmCross.Platform": "[5.7.0]"
+        }
+      },
+      "MvvmCross.Core/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Platform": "[5.7.0]"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Core.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Core.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.iOS.dll": {}
+        }
+      },
+      "MvvmCross.Platform/5.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
+          "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        }
+      },
+      "MvvmCrossAppNative.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MvvmCross": "5.7.0",
+          "MvvmCross.Binding": "5.7.0",
+          "MvvmCross.CodeAnalysis": "5.7.0",
+          "MvvmCross.Core": "5.7.0",
+          "MvvmCross.Platform": "5.7.0"
+        },
+        "compile": {
+          "bin/placeholder/MvvmCrossAppNative.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MvvmCrossAppNative.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MvvmCross/5.7.0": {
+      "sha512": "+rllylrQafzyAFK5Akgvv981JC6yH7k7oD+BEzZgAaY0JHGsXbQfjy99+aAZpEELiDvmIZQi5JaRI1YG5oZwdw==",
+      "type": "package",
+      "path": "mvvmcross/5.7.0",
+      "files": [
+        "mvvmcross.5.7.0.nupkg.sha512",
+        "mvvmcross.nuspec"
+      ]
+    },
+    "MvvmCross.Binding/5.7.0": {
+      "sha512": "ndWpYu8+j75NM+ZSaOxFtimYAD7jDwatN8PInVwKJIvJLTP/PqFfHlw7OQ5uuVZRFJEXanPoazaV3cZQ5jO2Pg==",
+      "type": "package",
+      "path": "mvvmcross.binding/5.7.0",
+      "files": [
+        "lib/MonoAndroid/MvvmCross.Binding.Droid.dll",
+        "lib/MonoAndroid/MvvmCross.Binding.Droid.pdb",
+        "lib/MonoAndroid/MvvmCross.Binding.dll",
+        "lib/MonoAndroid/MvvmCross.Binding.pdb",
+        "lib/MonoAndroid/MvvmCross.Localization.dll",
+        "lib/MonoAndroid/MvvmCross.Localization.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Binding.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Binding.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Localization.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Localization.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Binding.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Binding.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Localization.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Localization.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.Binding.dll",
+        "lib/Xamarin.tvOS/MvvmCross.Binding.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.Binding.tvOS.dll",
+        "lib/Xamarin.tvOS/MvvmCross.Localization.dll",
+        "lib/Xamarin.tvOS/MvvmCross.Localization.pdb",
+        "lib/dotnet/MvvmCross.Binding.dll",
+        "lib/dotnet/MvvmCross.Binding.pdb",
+        "lib/dotnet/MvvmCross.Localization.dll",
+        "lib/dotnet/MvvmCross.Localization.pdb",
+        "lib/net45/MvvmCross.Binding.Wpf.dll",
+        "lib/net45/MvvmCross.Binding.Wpf.pdb",
+        "lib/net45/MvvmCross.Binding.dll",
+        "lib/net45/MvvmCross.Binding.pdb",
+        "lib/net45/MvvmCross.Localization.dll",
+        "lib/net45/MvvmCross.Localization.pdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.dll",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.pdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.dll",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.pdb",
+        "lib/uap10.0/MvvmCross.Binding.Uwp.dll",
+        "lib/uap10.0/MvvmCross.Binding.Uwp.pdb",
+        "lib/uap10.0/MvvmCross.Binding.Uwp.pri",
+        "lib/uap10.0/MvvmCross.Binding.dll",
+        "lib/uap10.0/MvvmCross.Binding.pdb",
+        "lib/uap10.0/MvvmCross.Localization.dll",
+        "lib/uap10.0/MvvmCross.Localization.pdb",
+        "mvvmcross.binding.5.7.0.nupkg.sha512",
+        "mvvmcross.binding.nuspec"
+      ]
+    },
+    "MvvmCross.CodeAnalysis/5.7.0": {
+      "sha512": "xtbOn4W7DYQ3asSs9Z1s7FmKjAiLwkpaheTcJCCJRmhDX894wuKDakufooZ9/GlDttFt3hqHnPmnLi23xFi5qg==",
+      "type": "package",
+      "path": "mvvmcross.codeanalysis/5.7.0",
+      "files": [
+        "mvvmcross.codeanalysis.5.7.0.nupkg.sha512",
+        "mvvmcross.codeanalysis.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "MvvmCross.Core/5.7.0": {
+      "sha512": "PC2aLSm61hnsLOau/qgfDPChGpqIiY8QVuV8wcaTPz0e6WgTEVO1rPxXwpkNuhod55hhMl3dFgFofcRwcI2x3g==",
+      "type": "package",
+      "path": "mvvmcross.core/5.7.0",
+      "files": [
+        "lib/MonoAndroid/MvvmCross.Core.dll",
+        "lib/MonoAndroid/MvvmCross.Core.pdb",
+        "lib/MonoAndroid/MvvmCross.Droid.dll",
+        "lib/MonoAndroid/MvvmCross.Droid.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Core.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Core.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Mac.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Mac.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Core.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Core.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.iOS.dll",
+        "lib/Xamarin.iOS10/MvvmCross.iOS.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.Core.dll",
+        "lib/Xamarin.tvOS/MvvmCross.Core.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.tvOS.dll",
+        "lib/dotnet/MvvmCross.Core.dll",
+        "lib/dotnet/MvvmCross.Core.pdb",
+        "lib/net45/MvvmCross.Core.dll",
+        "lib/net45/MvvmCross.Core.pdb",
+        "lib/net45/MvvmCross.Wpf.dll",
+        "lib/net45/MvvmCross.Wpf.pdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Core.dll",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Core.pdb",
+        "lib/uap10.0/MvvmCross.Core.dll",
+        "lib/uap10.0/MvvmCross.Core.pdb",
+        "lib/uap10.0/MvvmCross.Uwp.dll",
+        "lib/uap10.0/MvvmCross.Uwp.pdb",
+        "lib/uap10.0/MvvmCross.Uwp.pri",
+        "mvvmcross.core.5.7.0.nupkg.sha512",
+        "mvvmcross.core.nuspec"
+      ]
+    },
+    "MvvmCross.Platform/5.7.0": {
+      "sha512": "0J0Rzk3TisxYswq2aDEfNfdfl5X92399TmM8X9L828e36rqXK0z+OFTmwn7ViMqC9d7Cqroz4gVbkxThHfHEng==",
+      "type": "package",
+      "path": "mvvmcross.platform/5.7.0",
+      "files": [
+        "lib/MonoAndroid/MvvmCross.Platform.Droid.dll",
+        "lib/MonoAndroid/MvvmCross.Platform.Droid.pdb",
+        "lib/MonoAndroid/MvvmCross.Platform.dll",
+        "lib/MonoAndroid/MvvmCross.Platform.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Platform.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Platform.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Platform.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Platform.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.Platform.dll",
+        "lib/Xamarin.tvOS/MvvmCross.Platform.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.Platform.tvOS.dll",
+        "lib/dotnet/MvvmCross.Platform.dll",
+        "lib/dotnet/MvvmCross.Platform.pdb",
+        "lib/net45/MvvmCross.Platform.Wpf.dll",
+        "lib/net45/MvvmCross.Platform.Wpf.pdb",
+        "lib/net45/MvvmCross.Platform.dll",
+        "lib/net45/MvvmCross.Platform.pdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.dll",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.pdb",
+        "lib/uap10.0/MvvmCross.Platform.Uwp.dll",
+        "lib/uap10.0/MvvmCross.Platform.Uwp.pdb",
+        "lib/uap10.0/MvvmCross.Platform.Uwp.pri",
+        "lib/uap10.0/MvvmCross.Platform.dll",
+        "lib/uap10.0/MvvmCross.Platform.pdb",
+        "mvvmcross.platform.5.7.0.nupkg.sha512",
+        "mvvmcross.platform.nuspec"
+      ]
+    },
+    "MvvmCrossAppNative.Core/1.0.0": {
+      "type": "project",
+      "path": "../MvvmCrossAppNative.Core/MvvmCrossAppNative.Core.csproj",
+      "msbuildProject": "../MvvmCrossAppNative.Core/MvvmCrossAppNative.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "MvvmCross >= 5.7.0",
+      "MvvmCross.CodeAnalysis >= 5.7.0",
+      "MvvmCrossAppNative.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Xamarin\\MvvmCrossAppNative\\src\\MvvmCrossAppNative.iOS\\MvvmCrossAppNative.iOS.csproj",
+      "projectName": "MvvmCrossAppNative.iOS",
+      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Xamarin\\MvvmCrossAppNative\\src\\MvvmCrossAppNative.iOS\\MvvmCrossAppNative.iOS.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Xamarin\\MvvmCrossAppNative\\src\\MvvmCrossAppNative.iOS\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "C:\\Users\\HP\\Documents\\GitHub\\Xamarin\\MvvmCrossAppNative\\src\\MvvmCrossAppNative.Core\\MvvmCrossAppNative.Core.csproj": {
+              "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Xamarin\\MvvmCrossAppNative\\src\\MvvmCrossAppNative.Core\\MvvmCrossAppNative.Core.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "MvvmCross": {
+            "target": "Package",
+            "version": "[5.7.0, )"
+          },
+          "MvvmCross.CodeAnalysis": {
+            "target": "Package",
+            "version": "[5.7.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\bin\Debug\netstandard2.0\MvvmCrossAppNative.Core.deps.json
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\bin\Debug\netstandard2.0\MvvmCrossAppNative.Core.dll
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\bin\Debug\netstandard2.0\MvvmCrossAppNative.Core.pdb
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\obj\Debug\netstandard2.0\MvvmCrossAppNative.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\obj\Debug\netstandard2.0\MvvmCrossAppNative.Core.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\obj\Debug\netstandard2.0\MvvmCrossAppNative.Core.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\obj\Debug\netstandard2.0\MvvmCrossAppNative.Core.dll
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\obj\Debug\netstandard2.0\MvvmCrossAppNative.Core.pdb
+C:\Users\HP\Documents\GitHub\Xamarin\MvvmCrossAppNative\src\MvvmCrossAppNative.Core\obj\Debug\netstandard2.0\MvvmCrossAppNative.Core.csprojResolveAssemblyReference.cache

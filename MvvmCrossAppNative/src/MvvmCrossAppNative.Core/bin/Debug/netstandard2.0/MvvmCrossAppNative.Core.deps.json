@@ -1,0 +1,121 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "04993b485982b2412d24b64d00af06c22bc6c665"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "MvvmCrossAppNative.Core/1.0.0": {
+        "dependencies": {
+          "MvvmCross": "5.7.0",
+          "MvvmCross.Binding": "5.7.0",
+          "MvvmCross.CodeAnalysis": "5.7.0",
+          "MvvmCross.Core": "5.7.0",
+          "MvvmCross.Platform": "5.7.0",
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "MvvmCrossAppNative.Core.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmCross/5.7.0": {
+        "dependencies": {
+          "MvvmCross.Binding": "5.7.0",
+          "MvvmCross.Core": "5.7.0"
+        }
+      },
+      "MvvmCross.Binding/5.7.0": {
+        "dependencies": {
+          "MvvmCross.Core": "5.7.0"
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.dll": {},
+          "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.dll": {}
+        }
+      },
+      "MvvmCross.CodeAnalysis/5.7.0": {
+        "dependencies": {
+          "MvvmCross.Core": "5.7.0",
+          "MvvmCross.Platform": "5.7.0"
+        }
+      },
+      "MvvmCross.Core/5.7.0": {
+        "dependencies": {
+          "MvvmCross.Platform": "5.7.0"
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80/MvvmCross.Core.dll": {}
+        }
+      },
+      "MvvmCross.Platform/5.7.0": {
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.dll": {}
+        }
+      },
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MvvmCrossAppNative.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MvvmCross/5.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+rllylrQafzyAFK5Akgvv981JC6yH7k7oD+BEzZgAaY0JHGsXbQfjy99+aAZpEELiDvmIZQi5JaRI1YG5oZwdw==",
+      "path": "mvvmcross/5.7.0",
+      "hashPath": "mvvmcross.5.7.0.nupkg.sha512"
+    },
+    "MvvmCross.Binding/5.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ndWpYu8+j75NM+ZSaOxFtimYAD7jDwatN8PInVwKJIvJLTP/PqFfHlw7OQ5uuVZRFJEXanPoazaV3cZQ5jO2Pg==",
+      "path": "mvvmcross.binding/5.7.0",
+      "hashPath": "mvvmcross.binding.5.7.0.nupkg.sha512"
+    },
+    "MvvmCross.CodeAnalysis/5.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xtbOn4W7DYQ3asSs9Z1s7FmKjAiLwkpaheTcJCCJRmhDX894wuKDakufooZ9/GlDttFt3hqHnPmnLi23xFi5qg==",
+      "path": "mvvmcross.codeanalysis/5.7.0",
+      "hashPath": "mvvmcross.codeanalysis.5.7.0.nupkg.sha512"
+    },
+    "MvvmCross.Core/5.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PC2aLSm61hnsLOau/qgfDPChGpqIiY8QVuV8wcaTPz0e6WgTEVO1rPxXwpkNuhod55hhMl3dFgFofcRwcI2x3g==",
+      "path": "mvvmcross.core/5.7.0",
+      "hashPath": "mvvmcross.core.5.7.0.nupkg.sha512"
+    },
+    "MvvmCross.Platform/5.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0J0Rzk3TisxYswq2aDEfNfdfl5X92399TmM8X9L828e36rqXK0z+OFTmwn7ViMqC9d7Cqroz4gVbkxThHfHEng==",
+      "path": "mvvmcross.platform/5.7.0",
+      "hashPath": "mvvmcross.platform.5.7.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\bin\Debug\netstandard2.0\MvvmCrossRefitTest.Core.deps.json
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\bin\Debug\netstandard2.0\MvvmCrossRefitTest.Core.dll
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\bin\Debug\netstandard2.0\MvvmCrossRefitTest.Core.pdb
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\obj\Debug\netstandard2.0\MvvmCrossRefitTest.Core.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\obj\Debug\netstandard2.0\MvvmCrossRefitTest.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\obj\Debug\netstandard2.0\MvvmCrossRefitTest.Core.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\obj\Debug\netstandard2.0\MvvmCrossRefitTest.Core.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\obj\Debug\netstandard2.0\MvvmCrossRefitTest.Core.dll
+C:\Users\HP\Documents\GitHub\Xamarin\Tests\MvvmCrossRefitTest\src\MvvmCrossRefitTest.Core\obj\Debug\netstandard2.0\MvvmCrossRefitTest.Core.pdb
